@@ -136,6 +136,8 @@ PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 # leave less information available via JDWP.
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/syberia/config/device_framework_matrix.xml
+
 # IORap app launch prefetching using Perfetto traces and madvise
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.iorapd.enable=true
