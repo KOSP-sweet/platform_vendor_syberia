@@ -150,6 +150,8 @@ PRODUCT_SYSTEM_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.input.video_enabled=false
 
+-include vendor/syberia/prebuilt/Lawnchair/lawnchair.mk
+
 # Pixel charger animation
 ifeq ($(TARGET_INCLUDE_PIXEL_CHARGER),true)
 PRODUCT_PACKAGES += \
